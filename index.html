@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kari's Momontom</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="js-weather">
+            <ul class="noneBullet">
+                <li class="temperature"></li>
+                <li class="location"></li>
+            </ul>
+            <!-- <div class="temperature"></div>
+            <div class="location"></div> -->
+        </div>
+        <div class="js-clock">
+            <div class="hourMinute">
+                <p class="HM">00:00</p>
+            </div>
+            <div class="second">
+                <p class="S">00</p>
+            </div>
+        </div>
+        <div class="js-name">
+            <div class="question">
+                <p>What is your name?</p>
+            </div>
+            <form class="getName">
+                <input type="text" class=indexStyling />
+            </form>
+            <div class="answerDiv hidden">
+                <p class="answerP"></p>
+            </div>
+        </div>
+        <div class="js-askToDo">
+            <div class="question_toDo">
+                <p>What to do?</p>
+            </div>
+            <form class="getWhatToDo">
+                <input type="text" class=indexStyling2 />
+            </form>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="js-toDoList">
+            <div class="listTitle">
+                <h2>To Do List</h2>
+            </div>
+            <div class="subTitle1">
+                <h3>Doing</h3>
+            </div>
+            <ul class="doingList"></ul>
+            <div class="subTitle2">
+                <h3>Finished</h3>
+            </div>
+            <ul class="finishedList"></ul>
+        </div>
+    </div>
+    <script src="clockJS.js"></script>
+    <script src="userNameJS.js"></script>
+    <script src="backGroundJS.js"></script>
+    <script src="toDoListJS.js"></script>
+    <script src="weatherJS.js"></script>
+</body>
+
+</html>

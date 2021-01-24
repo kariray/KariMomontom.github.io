@@ -315,11 +315,12 @@ button{
 }
 
 .bgImage{
-    position: absolute;
+    position: absolute; 
+    background-size: cover;
     top:0;
     left:0;
     width: 100%;
-    height: 110vh;
+    min-height: 100%;
     z-index:-1;
     animation: fadeIn .5s linear;
 }
